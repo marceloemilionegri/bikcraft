@@ -15,10 +15,20 @@
     color: var(--p5);
     border-radius: 4px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    max-width: max-content;
 }
 
 .botao:hover {
     background-image: linear-gradient(to bottom, #D79D00, #DE7600);
+}
+
+.botao.secundario {
+    background: var(--g10);
+    color: var(--g2);
+}
+
+.botao.secundario:hover {
+    background: var(--g9);
 }
 
 @media (max-width: 800px) {
