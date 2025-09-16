@@ -7,11 +7,15 @@
 @import "./global/footer.css";
 
 @import "./home/introducao.css";
-@import "./bicicletas/bicicletas-lista.css";
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
 
+@import "./bicicletas/bicicletas-lista.css";
+@import "./bicicletas/bicicletas.css";
+
 @import "./utilidades/componentes.css";
 
 @import "./seguros/seguros.css";
+
+@import "./termos/termos.css"
